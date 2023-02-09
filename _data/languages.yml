@@ -1,0 +1,11 @@
+- en:
+  name: English
+  base_url: /en/
+
+- es:
+  name: Español
+  base_url: /es/
+
+- fr:
+  name: Francés
+  base_url: /fr/
