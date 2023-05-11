@@ -1,5 +1,4 @@
-@import url(/assets/bootstrap/css/bootstrap.css);
-@import url(/assets/fontawesome/css/all.css);
-p { font-size: 1.25rem; line-height: 2rem; }
+@import "/assets/bootstrap/css/bootstrap.css";
+@import "/assets/fontawesome/css/all.css";
 
 /*# sourceMappingURL=main.css.map */

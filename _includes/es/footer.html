@@ -1,0 +1,17 @@
+<div class="bg-dark text-light p-5 mt-5">
+  <div class="row text-center">
+    <div class="col-md-4">
+      <h2 class="mb-3">Mapa</h2>
+      {% for item in site.data.navbar %}
+      <p><a href="{{ item.es.url }}" class="nav-link">{{ item.es.name }}</a></p>
+      {% endfor %}
+    </div>
+    <div class="col-md-4">
+      <h2>Contacto y redes</h2>
+    </div>
+    <div class="col-md-4">
+      <h2>Idiomas</h2>
+    </div>
+  </div>
+  <p class="text-center">© 2023 Bitcoin Cash Academy</p>
+</div>

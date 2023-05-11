@@ -1,12 +1,1 @@
-{
-	"version": 3,
-	"file": "main.css",
-	"sources": [
-		"main.scss"
-	],
-	"sourcesContent": [
-		"@import \"/assets/bootstrap/css/bootstrap.css\";\n@import \"/assets/fontawesome/css/all.css\";\n\np {\n  font-size: 1.25rem;\n  line-height: 2rem;\n}\n\n// Probando colores para el título de los artículos\n// h2 {\n//   color: #0077b6;\n// }\n"
-	],
-	"names": [],
-	"mappings": "AAAA,OAAO,CAAP,wCAAO;AACP,OAAO,CAAP,oCAAO;AAEP,AAAA,CAAC,CAAC,EACA,SAAS,EAAE,OAAO,EAClB,WAAW,EAAE,IAAI,GAClB"
-}
+{"version":3,"sourceRoot":"","sources":["main.scss"],"names":[],"mappings":"AAAQ;AACA","sourcesContent":["@import \"/assets/bootstrap/css/bootstrap.css\";\n@import \"/assets/fontawesome/css/all.css\";\n\n// p {\n//   font-size: 1.25rem;\n//   line-height: 2rem;\n// }\n\n// Probando colores para el título de los artículos\n// h2 {\n//   color: #0077b6;\n// }\n"],"file":"main.css"}

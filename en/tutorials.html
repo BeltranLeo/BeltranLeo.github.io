@@ -9,15 +9,12 @@ title: Tutorials
 
 <div class="album py-5">
     <div class=" container">
-
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-
             {% for tutorial in site.tutorials %}
-
             {% if tutorial.language == "en" %}
-
             <div class="col">
                 <div class="card shadow-sm">
+                  <img src="/assets/images/{{ tutorial.image }}" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">{{ tutorial.title }}</h5>
                         <p class="card-text">
@@ -32,11 +29,8 @@ title: Tutorials
                     </div>
                 </div>
             </div>
-
             {% endif %}
-
             {% endfor %}
-
         </div>
     </div>
 </div>

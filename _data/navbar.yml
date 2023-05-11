@@ -1,41 +1,41 @@
 - en:
     name: Home
-    url: /en/
+    url: /en
   es:
     name: Inicio
-    url: /es/
+    url: /es
   icon: fa-house
 
 - en:
     name: Tutorials
-    url: /en/tutorials/
+    url: /en/tutorials
   es:
     name: Tutoriales
-    url: /es/tutoriales/
+    url: /es/tutoriales
   icon: fa-pencil
 
 - en:
     name: Articles
-    url: /en/articles/
+    url: /en/articles
   es:
     name: Artículos
-    url: /es/artículos/
+    url: /es/artículos
   icon: fa-file
 
 - en:
     name: FAQs
-    url: /en/faq/
+    url: /en/faq
   es:
     name: Preguntas frecuentes
-    url: /es/preguntas-frecuentes/
+    url: /es/preguntas-frecuentes
   icon: fa-circle-question
 
 - en:
     name: About
-    url: /en/about/
+    url: /en/about
   es:
     name: Acerca de
-    url: /es/acerca-de/
+    url: /es/acerca-de
   icon: fa-mug-hot
 
 - en:

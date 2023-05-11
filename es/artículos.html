@@ -8,7 +8,7 @@ title: Artículos
 </div>
 
 <div class="album py-5">
-    <div class=" container">
+    <div class="container">
 
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
@@ -18,15 +18,16 @@ title: Artículos
 
             <div class="col">
                 <div class="card shadow-sm">
+                    <img src="/assets/images/{{ article.image }}" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">{{ article.title }}</h5>
                         <p class="card-text">
                             {{ article.description }}
                         </p>
-                        <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex justify-content-center    align-items-center">
                             <div class="btn-group">
                                 <a href="{{ article.url }}"><button type="button"
-                                        class="btn btn-sm btn-outline-secondary">View</button></a>
+                                        class="btn btn-sm btn-outline-secondary">Ver más</button></a>
                             </div>
                         </div>
                     </div>

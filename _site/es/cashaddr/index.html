@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <meta http-equiv="onion-location" content="http://bchacadmv4kndr52cxd37jccfuelwicrvinujjhe2dhimm64cpefylad.onion" />
+  <title>CashAddr, el formato de direcciones de Bitcoin Cash • Bitcoin Cash Academy</title>
+  <link href="/assets/css/main.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+  <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start py-3 border-bottom">
+    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0">
+      
+      <li class="nav-item border rounded m-1">
+        <a href="/es" class="nav-link d-flex">
+          <i class="fa-solid fa-house p-1"></i>
+          <div class="ps-1 m-0 d-none d-md-block d-lg-block d-xl-block d-xxl-block">
+            Inicio
+          </div>
+        </a>
+      </li>
+      
+      <li class="nav-item border rounded m-1">
+        <a href="/es/tutoriales" class="nav-link d-flex">
+          <i class="fa-solid fa-pencil p-1"></i>
+          <div class="ps-1 m-0 d-none d-md-block d-lg-block d-xl-block d-xxl-block">
+            Tutoriales
+          </div>
+        </a>
+      </li>
+      
+      <li class="nav-item border rounded m-1">
+        <a href="/es/artículos" class="nav-link d-flex">
+          <i class="fa-solid fa-file p-1"></i>
+          <div class="ps-1 m-0 d-none d-md-block d-lg-block d-xl-block d-xxl-block">
+            Artículos
+          </div>
+        </a>
+      </li>
+      
+      <li class="nav-item border rounded m-1">
+        <a href="/es/preguntas-frecuentes" class="nav-link d-flex">
+          <i class="fa-solid fa-circle-question p-1"></i>
+          <div class="ps-1 m-0 d-none d-md-block d-lg-block d-xl-block d-xxl-block">
+            Preguntas frecuentes
+          </div>
+        </a>
+      </li>
+      
+      <li class="nav-item border rounded m-1">
+        <a href="/es/acerca-de" class="nav-link d-flex">
+          <i class="fa-solid fa-mug-hot p-1"></i>
+          <div class="ps-1 m-0 d-none d-md-block d-lg-block d-xl-block d-xxl-block">
+            Acerca de
+          </div>
+        </a>
+      </li>
+      
+      <li class="nav-item border rounded m-1">
+        <a href="/" class="nav-link d-flex">
+          <i class="fa-solid fa-language p-1"></i>
+          <div class="ps-1 m-0 d-none d-md-block d-lg-block d-xl-block d-xxl-block">
+            
+          </div>
+        </a>
+      </li>
+      
+    </ul>
+  </header>
+</div>
+
+
+<!-- <div class="container">
+  <header class="d-flex justify-content-center py-3 border-bottom">
+    <ul class="nav nav-pills">
+
+      
+
+      <li class="nav-item border rounded m-1">
+        <a href="/es" class="nav-link">
+          <i class="fa-solid fa-house pe-2"></i>
+          Inicio
+        </a>
+      </li>
+
+      
+
+      <li class="nav-item border rounded m-1">
+        <a href="/es/tutoriales" class="nav-link">
+          <i class="fa-solid fa-pencil pe-2"></i>
+          Tutoriales
+        </a>
+      </li>
+
+      
+
+      <li class="nav-item border rounded m-1">
+        <a href="/es/artículos" class="nav-link">
+          <i class="fa-solid fa-file pe-2"></i>
+          Artículos
+        </a>
+      </li>
+
+      
+
+      <li class="nav-item border rounded m-1">
+        <a href="/es/preguntas-frecuentes" class="nav-link">
+          <i class="fa-solid fa-circle-question pe-2"></i>
+          Preguntas frecuentes
+        </a>
+      </li>
+
+      
+
+      <li class="nav-item border rounded m-1">
+        <a href="/es/acerca-de" class="nav-link">
+          <i class="fa-solid fa-mug-hot pe-2"></i>
+          Acerca de
+        </a>
+      </li>
+
+      
+
+      <li class="nav-item border rounded m-1">
+        <a href="/" class="nav-link">
+          <i class="fa-solid fa-language pe-2"></i>
+          
+        </a>
+      </li>
+
+      
+
+    </ul>
+  </header>
+</div> -->
+
+<div class="container my-4">
+  <img src="/assets/images/generic.jpg" class="img-fluid rounded shadow">
+<div class="container my-4">
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="p-2 p-md-5 col">
+          <div class="my-4">
+              <h1 class="display-4 my-4">CashAddr, el formato de direcciones de Bitcoin Cash</h1>
+              <p class="small text-muted">2023-01-01 • Leo Beltran</p>
+          </div>
+          <p class="lead"> </p>
+          <p>Cuando se desea recibir o enviar un pago utilizando Bitcoin Cash, se utilizan direcciones. La forma en la que se representa esta información se denomina <strong>formato de direcciones</strong>.</p>
+
+<p><strong>CashAddr</strong> es el formato de direcciones propio de Bitcoin Cash. Fue introducido luego de la actualización de 2017 y se ha convertido en el formato mayoritario adoptado por billeteras, usuarios y plataformas.</p>
+
+<p>Antes de utilizarse el formato CashAddr, se utilizaba el formato <strong>Legacy</strong> —también conocido como <strong>Base58</strong>—, que ya cayó en desuso y solamente es soportado en forma de retrocompatibilidad.</p>
+
+<hr />
+
+<p><strong>Nota:</strong> Lo que hay que entender es que, al ser un formato diferente, no cambia la dirección, sino la forma de mostrarlo. Es decir que una misma dirección puede representarse como Legacy o CashAddr. Es similar a representar el mismo número en forma decimal («48») o en números romanos («XLVIII»). No cambia el número, solo su formato de representación.</p>
+
+<hr />
+
+<p>Cuando se utiliza CashAddr, por defecto en Bitcoin Cash, las direcciones lucen de esta manera: <code class="language-plaintext highlighter-rouge">bitcoincash:qrxxrefrrup9xwct4j8msyn3yy3m2ks6nut6u0jv5g</code></p>
+
+<p>Mientras que la <strong>misma</strong> dirección en formato Legacy se ve así: <code class="language-plaintext highlighter-rouge">1Kdg817SuWmjMVpytvuXewFq9VcQGE9b9j</code></p>
+
+<p>Ambas direcciones representan la misma clave pública. Simplemente están representadas de manera diferente.</p>
+
+<h2 id="ventajas-de-cashaddr">Ventajas de CashAddr</h2>
+
+<p>Las principales diferencias de las direcciones CashAddr con las Legacy son:</p>
+
+<ul>
+  <li>Por defecto se incluye el prefijo <code class="language-plaintext highlighter-rouge">bitcoincash:</code>, aunque es opcional.</li>
+  <li>Solo se utilizan letras minúsculas. Se pueden representar también con letras mayúsculas.</li>
+  <li>Se pueden representar más eficientemente en códigos QR usando el modo alfanumérico.</li>
+  <li>Son exclusivas de Bitcoin Cash, por lo que no hay riesgo de confusión con otras criptomonedas a la hora de hacer un pago.</li>
+</ul>
+
+<h2 id="convertir-de-cashaddr-a-legacy-y-viceversa">Convertir de CashAddr a Legacy y viceversa</h2>
+
+<p>La billetera <strong>Electron Cash</strong> permite convertir una dirección CashAddr a Legacy y viceversa, en caso de que algún servicio que se utilice por alguna razón no lo soporte.</p>
+
+<p>También las siguientes páginas web ofrecen una herramienta de conversión en línea:</p>
+
+<ul>
+  <li>https://cashaddr.bitcoincash.org/</li>
+  <li>https://cashaddr.org/</li>
+</ul>
+
+<p>Sin embargo, es recomendable no utilizar servicios o plataformas que no utilicen CashAddr, ya que, al ser una actualización tan básica y adoptada en la red de Bitcoin Cash, cualquier sistema que no las utilice da la impresión de estar extremadamente desactualizado.</p>
+
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+</div>
+
+</div>
+<div class="bg-dark text-light p-5 mt-5">
+  <div class="row text-center">
+    <div class="col-md-4">
+      <h2 class="mb-3">Mapa</h2>
+      
+      <p><a href="/es" class="nav-link">Inicio</a></p>
+      
+      <p><a href="/es/tutoriales" class="nav-link">Tutoriales</a></p>
+      
+      <p><a href="/es/artículos" class="nav-link">Artículos</a></p>
+      
+      <p><a href="/es/preguntas-frecuentes" class="nav-link">Preguntas frecuentes</a></p>
+      
+      <p><a href="/es/acerca-de" class="nav-link">Acerca de</a></p>
+      
+      <p><a href="/" class="nav-link"></a></p>
+      
+    </div>
+    <div class="col-md-4">
+      <h2>Contacto y redes</h2>
+    </div>
+    <div class="col-md-4">
+      <h2>Idiomas</h2>
+    </div>
+  </div>
+  <p class="text-center">© 2023 Bitcoin Cash Academy</p>
+</div>
+
+</body>
+
+</html>

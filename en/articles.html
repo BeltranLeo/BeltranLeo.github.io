@@ -1,8 +1,6 @@
 ---
 layout: en/default
 title: Articles
-lang: en
-ref: home
 ---
 
 <div class="container text-center">
@@ -11,13 +9,9 @@ ref: home
 
 <div class="album py-5">
     <div class=" container">
-
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-
             {% for article in site.articles %}
-
             {% if article.language == "en" %}
-
             <div class="col">
                 <div class="card shadow-sm">
                   <img src="/assets/images/{{ article.image }}" class="card-img-top">
@@ -35,11 +29,8 @@ ref: home
                     </div>
                 </div>
             </div>
-
             {% endif %}
-
             {% endfor %}
-
         </div>
     </div>
 </div>

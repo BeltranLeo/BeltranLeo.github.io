@@ -1,31 +1,89 @@
 ---
 layout: es/default
-lang: es
 title: Inicio
+language: es
 ---
 
 <div class="px-4 py-5 my-5 text-center">
-    <h1 class="display-5 fw-bold">Bitcoin Cash Academy</h1>
-    <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">Esta es la Bitcoin Cash Academy, un lugar para aprender acerca de Bitcoin Cash tal cual fue
-            diseñado por Satoshi Nakamoto ¡Explora el sitio!</p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">¡Aprender sobre Bitcoin Cash!</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secundario</button>
-        </div>
+  <h1 class="display-5 fw-bold">Bitcoin Cash Academy</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">{{ site.data.index[page.language].lead }}</p>
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+        {{ site.data.index[page.language].learn_bch }}
+      </button>
+      <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+        {{ site.data.index[page.language].about }}
+      </button>
     </div>
+  </div>
 </div>
 
-<div class="container">
-    <div class="row">
+<div class="container my-3 p-3 border rounded bg-light text-center">
+  <h1>{{ site.data.index[page.language].tutorials }}</h1>
 
-        <div class="col-md-2"></div>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-        <div class="col">
-            <h1>Este sitio web está en construcción.</h1>
+    {% for tutarial in site.tutorial %}
+
+    {% if tutorial.language == page.language %}
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/assets/images/{{ article.image }}" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">{{ article.title }}</h5>
+          <p class="card-text">
+            {{ article.description }}
+          </p>
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="btn-group">
+              <a href="{{ article.url }}"><button type="button" class="btn btn-sm btn-outline-secondary">Ver
+                  más</button></a>
+            </div>
+          </div>
         </div>
-
-        <div class="col-md-2"></div>
-
+      </div>
     </div>
+
+    {% endif %}
+
+    {% endfor %}
+
+  </div>
+
+
+</div>
+
+<div class="container my-3 p-3 border rounded bg-light text-center">
+  <h1 class="mb-3">{{ site.data.index[page.language].articles }}</h1>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+    {% for article in site.articles %}
+
+    {% if article.language == page.language %}
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/assets/images/{{ article.image }}" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">{{ article.title }}</h5>
+          <p class="card-text">
+            {{ article.description }}
+          </p>
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="btn-group">
+              <a href="{{ article.url }}"><button type="button" class="btn btn-sm btn-outline-secondary">Ver
+                  más</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% endif %}
+
+    {% endfor %}
+
+  </div>
 </div>
