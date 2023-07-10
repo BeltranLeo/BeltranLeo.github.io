@@ -1,89 +1,352 @@
----
-layout: es/default
-title: Inicio
-language: es
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="px-4 py-5 my-5 text-center">
-  <h1 class="display-5 fw-bold">Bitcoin Cash Academy</h1>
-  <div class="col-lg-6 mx-auto">
-    <p class="lead mb-4">{{ site.data.index[page.language].lead }}</p>
-    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-      <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
-        {{ site.data.index[page.language].learn_bch }}
-      </button>
-      <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-        {{ site.data.index[page.language].about }}
-      </button>
-    </div>
-  </div>
-</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio • Bitcoin Cash Academy</title>
+    <link rel="shortcut icon" href="/assets/img/logos/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
 
-<div class="container my-3 p-3 border rounded bg-light text-center">
-  <h1>{{ site.data.index[page.language].tutorials }}</h1>
+<body>
+    <!-- Navegador -->
+    <nav class="navegador">
+    <ul>
+        <li class="logoNav">
+            <a href="/">
+                <img src="/assets/img/logos/Logo_individual.svg" alt="Logo de Bitcoin Cash Academy">
+            </a>
+        </li>
 
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        
 
-    {% for tutarial in site.tutorial %}
+        <li class="elementoNav">
+            <a href="/es/">
+                <i class="bi bi-house-fill icoNav"></i>
+                <p>Inicio</p>
+            </a>
+        </li>
 
-    {% if tutorial.language == page.language %}
 
-    <div class="col">
-      <div class="card shadow-sm">
-        <img src="/assets/images/{{ article.image }}" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">{{ article.title }}</h5>
-          <p class="card-text">
-            {{ article.description }}
-          </p>
-          <div class="d-flex justify-content-center align-items-center">
-            <div class="btn-group">
-              <a href="{{ article.url }}"><button type="button" class="btn btn-sm btn-outline-secondary">Ver
-                  más</button></a>
-            </div>
-          </div>
+
+        
+
+        <li class="elementoNav">
+            <a href="/artículos/">
+                <i class="bi bi-file-earmark-text-fill icoNav"></i>
+                <p>Artículos</p>
+            </a>
+        </li>
+
+
+
+        
+
+        <li class="elementoNav">
+            <a href="/preguntas-frecuentes/">
+                <i class="bi-question-circle-fill icoNav"></i>
+                <p>FAQs</p>
+            </a>
+        </li>
+
+
+
+        
+
+        <li class="elementoNav">
+            <a href="/acerca-de/">
+                <i class="bi-cup-hot-fill icoNav"></i>
+                <p>Acerca de</p>
+            </a>
+        </li>
+
+
+
+        
+
+        <li class="elementoNav idiomaNav">
+            <a href="#">
+                <i class="bi bi-globe icoNav"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+    <!-- Contenido -->
+    <header>
+    <a href="principal.html"><img src="/assets/img/logos/Logo_con_texto.svg" alt="Logo de bitcoin cash"></a>
+</header>
+
+<!-- Inicio Main -->
+<main>
+    <!-- Seccion 1 -->
+    <section class="inicio">
+        <h1 class="tituloPrincipal">Bitcoin<span class="verde">Cash</span> Academy</h1>
+        <p class="textoInicio">Aprende sobre Bitcoin Cash. Un dinero digital, estable, rápido y fácil de usar, tal
+            cual fue diseñado por Satoshi Nakamoto.</p>
+        <div class="botonesInicio">
+            <a href="#">
+                <p>¡Aprende sobre Bitcoin Cash!</p>
+            </a>
+            <a href="#" class="btnAcerca">
+                <p>Acerca de la academia</p>
+            </a>
         </div>
-      </div>
-    </div>
+    </section>
 
-    {% endif %}
+    <!-- Seccion 2 -->
+    <section class="ultimos">
+        <h2>Últimos artículos</h2>
+        <div class="articulosInicio">
 
-    {% endfor %}
+            
 
-  </div>
+            
+            
 
 
-</div>
-
-<div class="container my-3 p-3 border rounded bg-light text-center">
-  <h1 class="mb-3">{{ site.data.index[page.language].articles }}</h1>
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-
-    {% for article in site.articles %}
-
-    {% if article.language == page.language %}
-
-    <div class="col">
-      <div class="card shadow-sm">
-        <img src="/assets/images/{{ article.image }}" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">{{ article.title }}</h5>
-          <p class="card-text">
-            {{ article.description }}
-          </p>
-          <div class="d-flex justify-content-center align-items-center">
-            <div class="btn-group">
-              <a href="{{ article.url }}"><button type="button" class="btn btn-sm btn-outline-secondary">Ver
-                  más</button></a>
-            </div>
-          </div>
+<a href="/es/anyhedge/" class="card">
+    <figure id="anyhedge">
+        <img src="/assets/img/articulos/Anyhedge.svg" alt="Logo de AnyHedge." class="cardImage">
+        <div class="cardText">
+            <h4>AnyHedge, estabilidad en Bitcoin Cash</h4>
+            <figcaption>Contratos inteligentes y protección de la volatilidad.</figcaption>
         </div>
-      </div>
+        <div class="categorias">
+
+            
+
+        </div>
+    </figure>
+</a>
+            
+            
+
+
+<a href="/es/qu%C3%A9-es-0-conf/" class="card">
+    <figure id="0-conf">
+        <img src="/assets/img/articulos/instant-payment.jpg" alt="Pago instantáneo." class="cardImage">
+        <div class="cardText">
+            <h4>¿Qué es 0-conf?</h4>
+            <figcaption>La tecnología para  pagos instantáneos.</figcaption>
+        </div>
+        <div class="categorias">
+
+            
+            <div class="categoria">
+                Pagos
+            </div>
+            
+            <div class="categoria">
+                Economía
+            </div>
+            
+
+        </div>
+    </figure>
+</a>
+            
+            
+
+
+<a href="/es/cashaddr-el-formato-de-direcciones-de-bitcoin-cash/" class="card">
+    <figure id="cashaddr">
+        <img src="/assets/img/articulos/" alt="" class="cardImage">
+        <div class="cardText">
+            <h4>CashAddr, el formato de direcciones de Bitcoin Cash</h4>
+            <figcaption>Universal, funcional y escalable.</figcaption>
+        </div>
+        <div class="categorias">
+
+            
+
+        </div>
+    </figure>
+</a>
+            
+            
+
+
+<a href="/es/qu%C3%A9-son-las-cash-accounts/" class="card">
+    <figure id="cashaccounts">
+        <img src="/assets/img/articulos/cash-accounts.jpg" alt="Logo de Cash Accounts." class="cardImage">
+        <div class="cardText">
+            <h4>Qué son las Cash Accounts</h4>
+            <figcaption>Dirección persistente asegurada por la cadena de bloques.</figcaption>
+        </div>
+        <div class="categorias">
+
+            
+
+        </div>
+    </figure>
+</a>
+            
+            
+
+
+<a href="/es/billeteras-de-bitcoin-cash/" class="card">
+    <figure id="wallets">
+        <img src="/assets/img/articulos/Wallets_portada.svg" alt="" class="cardImage">
+        <div class="cardText">
+            <h4>Billeteras de Bitcoin Cash</h4>
+            <figcaption>El software para interactuar con la red de Bitcoin.</figcaption>
+        </div>
+        <div class="categorias">
+
+            
+
+        </div>
+    </figure>
+</a>
+            
+            
+
+
+<a href="/es/qu%C3%A9-es-spv-y-c%C3%B3mo-funciona-en-bitcoin-cash/" class="card">
+    <figure id="spv">
+        <img src="/assets/img/articulos/" alt="" class="cardImage">
+        <div class="cardText">
+            <h4>Qué es SPV y cómo funciona en Bitcoin Cash</h4>
+            <figcaption>Billeteras y nodos ligeros asegurados por la cadena de bloques.</figcaption>
+        </div>
+        <div class="categorias">
+
+            
+
+        </div>
+    </figure>
+</a>
+            
+            
+
+
+<a href="/es/sobre-satoshi-nakamoto/" class="card">
+    <figure id="satoshi">
+        <img src="/assets/img/articulos/" alt="" class="cardImage">
+        <div class="cardText">
+            <h4>Sobre Satoshi Nakamoto</h4>
+            <figcaption>El diseñador y creador del efectivo electrónico P2P.</figcaption>
+        </div>
+        <div class="categorias">
+
+            
+
+        </div>
+    </figure>
+</a>
+            
+            
+
+
+<a href="/es/qu%C3%A9-son-las-double-spend-proofs/" class="card">
+    <figure id="dsproofs">
+        <img src="/assets/img/articulos/" alt="" class="cardImage">
+        <div class="cardText">
+            <h4>¿Qué son las Double Spend Proofs?</h4>
+            <figcaption>Transacciones seguras e instantáneas protegidas por probabilística.</figcaption>
+        </div>
+        <div class="categorias">
+
+            
+
+        </div>
+    </figure>
+</a>
+            
+            
+
+
+<a href="/es/qu%C3%A9-es-un-doble-gasto-y-c%C3%B3mo-bitcoin-cash-lo-resuelve/" class="card">
+    <figure id="double-spend">
+        <img src="/assets/img/articulos/" alt="" class="cardImage">
+        <div class="cardText">
+            <h4>¿Qué es un doble gasto y cómo Bitcoin Cash lo resuelve?</h4>
+            <figcaption>El problema fundamental del dinero digital.</figcaption>
+        </div>
+        <div class="categorias">
+
+            
+
+        </div>
+    </figure>
+</a>
+            
+            
+
+
+<a href="/es/qu%C3%A9-es-cashfusion-y-c%C3%B3mo-usarlo-en-bitcoin-cash/" class="card">
+    <figure id="cashfusion">
+        <img src="/assets/img/articulos/" alt="" class="cardImage">
+        <div class="cardText">
+            <h4>Qué es CashFusion y cómo usarlo en Bitcoin Cash</h4>
+            <figcaption>Privacidad para Bitcoin Cash.</figcaption>
+        </div>
+        <div class="categorias">
+
+            
+
+        </div>
+    </figure>
+</a>
+            
+
+        </div>
+    </section>
+
+</main>
+
+    <!-- Footer -->
+    <footer>
+    <div class="contFooter">
+        <div class="div1Footer">
+            <h4>Mapa del sitio</h4>
+            <ul>
+                
+                <li><a href="#">Inicio</a></li>
+                
+                <li><a href="#">Artículos</a></li>
+                
+                <li><a href="#">FAQs</a></li>
+                
+                <li><a href="#">Acerca de</a></li>
+                
+            </ul>
+        </div>
+        <div>
+            <h4>Contacto y redes</h4>
+            <ul>
+                
+                <li><a href="https://twitter.com/BitcoinCashAcademy">Twitter</a></li>
+                
+                <li><a href="https://t.me/BitcoinCashAcademy">Telegram</a></li>
+                
+                <li><a href="mailto:contact@bch.education">Email</a></li>
+                
+            </ul>
+        </div>
+        <div>
+            <h4>Idiomas</h4>
+            <ul>
+                
+                <li><a href="#">Español</a></li>
+                
+                <li><a href="#">Français</a></li>
+                
+                <li><a href="#">English</a></li>
+                
+                <li><a href="#">Deutsch</a></li>
+                
+                <li><a href="#">Italiano</a></li>
+                
+                <li><a href="#">Português</a></li>
+                
+            </ul>
+        </div>
     </div>
+    <p class="derechoAutor">© Bitcoin Cash Academy</p>
+</footer>
+</body>
 
-    {% endif %}
-
-    {% endfor %}
-
-  </div>
-</div>
+</html>

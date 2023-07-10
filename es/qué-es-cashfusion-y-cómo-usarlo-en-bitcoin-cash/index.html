@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qué es CashFusion y cómo usarlo en Bitcoin Cash • Bitcoin Cash Academy</title>
+    <link rel="shortcut icon" href="/assets/img/logos/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+    <!-- Navegador -->
+    <nav class="navegador">
+    <ul>
+        <li class="logoNav">
+            <a href="/">
+                <img src="/assets/img/logos/Logo_individual.svg" alt="Logo de Bitcoin Cash Academy">
+            </a>
+        </li>
+
+        
+
+        <li class="elementoNav">
+            <a href="/es/">
+                <i class="bi bi-house-fill icoNav"></i>
+                <p>Inicio</p>
+            </a>
+        </li>
+
+
+
+        
+
+        <li class="elementoNav">
+            <a href="/artículos/">
+                <i class="bi bi-file-earmark-text-fill icoNav"></i>
+                <p>Artículos</p>
+            </a>
+        </li>
+
+
+
+        
+
+        <li class="elementoNav">
+            <a href="/preguntas-frecuentes/">
+                <i class="bi-question-circle-fill icoNav"></i>
+                <p>FAQs</p>
+            </a>
+        </li>
+
+
+
+        
+
+        <li class="elementoNav">
+            <a href="/acerca-de/">
+                <i class="bi-cup-hot-fill icoNav"></i>
+                <p>Acerca de</p>
+            </a>
+        </li>
+
+
+
+        
+
+        <li class="elementoNav idiomaNav">
+            <a href="#">
+                <i class="bi bi-globe icoNav"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+    <!-- Contenido -->
+    
+
+
+
+
+<!-- Main -->
+<main class="mainPost">
+    <div class="contenedorPost">
+        <!-- Portada -->
+        <div class="portadaPost">
+            <img src="/assets/img/articulos/" alt="">
+        </div>
+        <div class="contenidoPost">
+            <h1>Qué es CashFusion y cómo usarlo en Bitcoin Cash</h1>
+            <p><strong>CashFusion</strong> es una tecnología presente en Bitcoin Cash que permite obtener y mejorar la privacidad y el anonimato. Es una implementación de <strong>CoinJoin</strong>, que es un sistema por el cual dos o más usuarios realizan una transacción conjunta, agregando sus monedas en un pozo común y luego retirándolas sin que los demás participantes sepan qué monedas corresponden a quién.</p>
+
+<h2 id="por-qué-se-necesita-cashfusion">¿Por qué se necesita CashFusion?</h2>
+
+<p>Como la cadena de bloques de Bitcoin Cash es pública, el registro de todas las transacciones realizadas por los usuarios queda registrado. Empresas como <strong>Chainalysis</strong> se dedican a estudiar el tráfico de la red y tratar de combinar metadatos para identificar las monedas que pertenecen a determinados usuarios.</p>
+
+<p>Con CashFusion no solo se vuelve exponencialmente más caro, sino que es virtualmente imposible descomponer una transacción realizada con esta tecnología para identificar a los usuarios.</p>
+
+<h2 id="ventajas">Ventajas</h2>
+
+<ul>
+  <li><strong>Mejora la resistencia a la censura.</strong> CashFusion es una herramienta efectiva para evadir controles, regulaciones y listas negras.</li>
+  <li><strong>Es autocustodial.</strong> CashFusion funciona de forma que no se requiere dar acceso a los bitcoins a ningún tercero. El usuario mantiene en todo momento control de sus fondos.</li>
+  <li><strong>No tiene comisión.</strong> En otras cadenas de bloque, los protocolos de privacidad cobran a los usuarios una tarifa extra para ser utilizados. Usando CashFusion solamente se paga la tarifa de la red.</li>
+</ul>
+
+<h2 id="cómo-funciona-cashfusion">¿Cómo funciona CashFusion?</h2>
+
+<p>Una transacción tradicional de Bitcoin Cash puede verse de la siguiente manera:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Inputs | Outputs
+-------+--------
+2 BCH  | 2.5 BCH
+1 BCH  | 0.5 BCH
+</code></pre></div></div>
+
+<p>Es casi seguro que se trata de un usuario haciendo un pago por el equivalente a 2.5 BCH, ya que si fuera 0.5 no haría falta uno de los <em>inputs</em>. Por este motivo, podemos estar casi seguros de que ambas direcciones de <em>input</em> y el <em>output</em> de 0.5 BCH pertecenen al mismo individuo.</p>
+
+<p>Para que esto no ocurra, se puede introducir confusión en la transacción.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Inputs | Outputs
+-------+--------
+2 BCH  | 2.5 BCH
+1 BCH  | 0.5 BCH
+</code></pre></div></div>
+
+<h2 id="funcionamiento-simplificado">Funcionamiento simplificado</h2>
+
+<p>El protocolo de funcionamiento de CashFusion es el siguiente:</p>
+
+<ol>
+  <li>El usuario se conecta a un servidor de CashFusion y se registra en una lista pública para anunciar el tamaño de las monedas que desea mezclar. Este servidor está encargado de coordinar la transacción entre los diferentes participantes.</li>
+  <li>El servidor y los diferentes participantes aguardan hasta que haya suficientes personas esperando para hacer una fusión.</li>
+  <li>La fusión inicia. Cada uno de los participantes envía información al servidor, pero de una manera en la cual no es posible saber qué monedas pertenecen a quién, garantizando la privacidad.</li>
+  <li>Cada usuario selecciona nuevas direcciones para recibir los bitcoins fusionados. La idea es utilizar direcciones que no hayan sido vistas anteriormente en la red.</li>
+</ol>
+
+<h2 id="cómo-utilizar-cashfusion">¿Cómo utilizar CashFusion?</h2>
+
+<p>La forma más simple es descargar la versión de escritorio de la billetera <strong>Electron Cash</strong>.</p>
+
+<h2 id="enlaces-externos">Enlaces externos</h2>
+
+<p><a href="https://cashfusion.org/">Página oficial de CashFusion</a></p>
+
+<p>Enlace a la billetera <a href="https://electroncash.org/">Electron Cash</a>, con soporte para CashFusion.</p>
+
+        </div>
+    </div>
+</main>
+
+    <!-- Footer -->
+    <footer>
+    <div class="contFooter">
+        <div class="div1Footer">
+            <h4>Mapa del sitio</h4>
+            <ul>
+                
+                <li><a href="#">Inicio</a></li>
+                
+                <li><a href="#">Artículos</a></li>
+                
+                <li><a href="#">FAQs</a></li>
+                
+                <li><a href="#">Acerca de</a></li>
+                
+            </ul>
+        </div>
+        <div>
+            <h4>Contacto y redes</h4>
+            <ul>
+                
+                <li><a href="https://twitter.com/BitcoinCashAcademy">Twitter</a></li>
+                
+                <li><a href="https://t.me/BitcoinCashAcademy">Telegram</a></li>
+                
+                <li><a href="mailto:contact@bch.education">Email</a></li>
+                
+            </ul>
+        </div>
+        <div>
+            <h4>Idiomas</h4>
+            <ul>
+                
+                <li><a href="#">Español</a></li>
+                
+                <li><a href="#">Français</a></li>
+                
+                <li><a href="#">English</a></li>
+                
+                <li><a href="#">Deutsch</a></li>
+                
+                <li><a href="#">Italiano</a></li>
+                
+                <li><a href="#">Português</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <p class="derechoAutor">© Bitcoin Cash Academy</p>
+</footer>
+</body>
+
+</html>

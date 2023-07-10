@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Qué es 0-conf? • Bitcoin Cash Academy</title>
+    <link rel="shortcut icon" href="/assets/img/logos/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+    <!-- Navegador -->
+    <nav class="navegador">
+    <ul>
+        <li class="logoNav">
+            <a href="/">
+                <img src="/assets/img/logos/Logo_individual.svg" alt="Logo de Bitcoin Cash Academy">
+            </a>
+        </li>
+
+        
+
+        <li class="elementoNav">
+            <a href="/es/">
+                <i class="bi bi-house-fill icoNav"></i>
+                <p>Inicio</p>
+            </a>
+        </li>
+
+
+
+        
+
+        <li class="elementoNav">
+            <a href="/artículos/">
+                <i class="bi bi-file-earmark-text-fill icoNav"></i>
+                <p>Artículos</p>
+            </a>
+        </li>
+
+
+
+        
+
+        <li class="elementoNav">
+            <a href="/preguntas-frecuentes/">
+                <i class="bi-question-circle-fill icoNav"></i>
+                <p>FAQs</p>
+            </a>
+        </li>
+
+
+
+        
+
+        <li class="elementoNav">
+            <a href="/acerca-de/">
+                <i class="bi-cup-hot-fill icoNav"></i>
+                <p>Acerca de</p>
+            </a>
+        </li>
+
+
+
+        
+
+        <li class="elementoNav idiomaNav">
+            <a href="#">
+                <i class="bi bi-globe icoNav"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+    <!-- Contenido -->
+    
+
+
+
+
+<!-- Main -->
+<main class="mainPost">
+    <div class="contenedorPost">
+        <!-- Portada -->
+        <div class="portadaPost">
+            <img src="/assets/img/articulos/instant-payment.jpg" alt="Pago instantáneo.">
+        </div>
+        <div class="contenidoPost">
+            <h1>¿Qué es 0-conf?</h1>
+            <p><strong>0-conf</strong> es una capa de utilidad existente en Bitcoin Cash que permite aceptar transacciones sin confirmaciones, lo que facilita los pagos y da una experiencia cómoda e instantánea.</p>
+
+<p>Cuando una persona utiliza Bitcoin Cash para pagar por un bien o servicio, sobre todo en persona, la transacción puede demorar hasta diez minutos en ser incluida en un bloque. A esto se lo denomina <strong>confirmación</strong>. Por ejemplo, una transacción que fue incluida en el último bloque generado, tiene <em>una confirmación</em>. Una que fue incluida hace tres bloques tiene <em>tres confirmaciones</em>.</p>
+
+<p>A medida que una transacción obtiene confirmaciones, la posibilidad de que esta sea revertida disminuye considerablemente, haciendo que algunos servicios, como <em>exchanges</em>, exijan un determinado número de confirmaciones antes de acreditar el balance.</p>
+
+<p>Sin embargo, esto no significa que si alguien paga por un café tiene que estar esperando en el local hasta que el pago se haya confirmado. 0-conf le da mayor seguridad al comerciante de que el pago no puede ser revertido y que será incluido en el próximo bloque.</p>
+
+<p>Además, el comerciante puede hacer uso de los BCH recibidos de forma instantánea (también usando 0-conf), logrando que no tenga que esperar una confirmación para poder usarlo. Tal cual el dinero en efectivo, solo que en forma digital.</p>
+
+<p>Aún así, cabe resaltar que un comerciante puede decidir no aceptar transacciones sin confirmaciones, dependiendo del tipo de producto o servicio que ofrezca. Es completamente voluntario.</p>
+
+<figure>
+    <div>
+        <image src="/assets/img/articulos/instant-payment.jpg" caption="Leyenda de la imagen" alt="Imagen de prueba" />
+        <figcaption>Texto de la imagen</figcaption>
+    </div>
+</figure>
+
+<h2 id="cómo-funciona-0-conf">Cómo funciona 0-conf</h2>
+
+<p>Los usuarios, al hacer una transacción utilizando una billetera, construyen una transacción y la firman con las claves privadas correspondientes a las monedas de Bitcoin Cash que están intentando gastar. Esta transacción es comunicada vía internet a los nodos y a los mineros que mantienen la seguridad de la red. Los mineros chequean que la transacción sea válida (cumpliendo con las reglas de consenso) y la agregan a la <strong><em>mempool</em></strong>, que es el espacio en memoria donde aguardan las transacciones para ser incluidas en un bloque futuro.</p>
+
+<p>Si un usuario malicioso, en un intento de estafar a un comerciante, envía una nueva transacción gastando las mismas monedas, esta será rechazada por la mayoría de los nodos, que están configurados para no aceptar transacciones que intenten gastar monedas no válidas o aquellas que ya estén incluidas dentro de la <strong><em>mempool</em></strong>.</p>
+
+<p>Por este motivo, dado que el incentivo de los mineros honestos es incluir la mayor cantidad de transacciones en la cadena de bloques para cobrar las tarifas que estas pagan, lo más probable es que las nuevas transacciones sin confirmación sean incluidas en el próximo bloque hallado.</p>
+
+<h2 id="seguridad">Seguridad</h2>
+
+<p>La seguridad de 0-conf se basa en el sistema de seguridad de Bitcoin Cash y es ampliamente utilizada por la gran mayoría de las herramientas del ecosistema. El funcionamiento es simple y <strong>no requiere configuración por parte del usuario.</strong></p>
+
+<p>Además, en la actualización de mayo de 2021, se incluyó un sistema de seguridad conocido como DSProofs, que permite generar y propagar por toda la red una prueba criptográfica de doble gasto, permitiendo identificar más fácilmente un intento de doble gasto en una transacción fraudulenta.</p>
+
+<p>Por otro lado, la seguridad provista por 0-conf es variable. Es natural pensar que para un café o una hamburguesa un comerciante que acepte Bitcoin Cash decidirá no esperar una confirmación, aceptando transacciones tan pronto como su sistema de pagos las detecte. Un auto o una casa requerirá confirmaciones, pero hay suficiente traspaso de tiempo como para que esto no sea un problema.</p>
+
+        </div>
+    </div>
+</main>
+
+    <!-- Footer -->
+    <footer>
+    <div class="contFooter">
+        <div class="div1Footer">
+            <h4>Mapa del sitio</h4>
+            <ul>
+                
+                <li><a href="#">Inicio</a></li>
+                
+                <li><a href="#">Artículos</a></li>
+                
+                <li><a href="#">FAQs</a></li>
+                
+                <li><a href="#">Acerca de</a></li>
+                
+            </ul>
+        </div>
+        <div>
+            <h4>Contacto y redes</h4>
+            <ul>
+                
+                <li><a href="https://twitter.com/BitcoinCashAcademy">Twitter</a></li>
+                
+                <li><a href="https://t.me/BitcoinCashAcademy">Telegram</a></li>
+                
+                <li><a href="mailto:contact@bch.education">Email</a></li>
+                
+            </ul>
+        </div>
+        <div>
+            <h4>Idiomas</h4>
+            <ul>
+                
+                <li><a href="#">Español</a></li>
+                
+                <li><a href="#">Français</a></li>
+                
+                <li><a href="#">English</a></li>
+                
+                <li><a href="#">Deutsch</a></li>
+                
+                <li><a href="#">Italiano</a></li>
+                
+                <li><a href="#">Português</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <p class="derechoAutor">© Bitcoin Cash Academy</p>
+</footer>
+</body>
+
+</html>

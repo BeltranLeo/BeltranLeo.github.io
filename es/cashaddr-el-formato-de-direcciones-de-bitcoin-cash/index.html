@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CashAddr, el formato de direcciones de Bitcoin Cash • Bitcoin Cash Academy</title>
+    <link rel="shortcut icon" href="/assets/img/logos/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+    <!-- Navegador -->
+    <nav class="navegador">
+    <ul>
+        <li class="logoNav">
+            <a href="/">
+                <img src="/assets/img/logos/Logo_individual.svg" alt="Logo de Bitcoin Cash Academy">
+            </a>
+        </li>
+
+        
+
+        <li class="elementoNav">
+            <a href="/es/">
+                <i class="bi bi-house-fill icoNav"></i>
+                <p>Inicio</p>
+            </a>
+        </li>
+
+
+
+        
+
+        <li class="elementoNav">
+            <a href="/artículos/">
+                <i class="bi bi-file-earmark-text-fill icoNav"></i>
+                <p>Artículos</p>
+            </a>
+        </li>
+
+
+
+        
+
+        <li class="elementoNav">
+            <a href="/preguntas-frecuentes/">
+                <i class="bi-question-circle-fill icoNav"></i>
+                <p>FAQs</p>
+            </a>
+        </li>
+
+
+
+        
+
+        <li class="elementoNav">
+            <a href="/acerca-de/">
+                <i class="bi-cup-hot-fill icoNav"></i>
+                <p>Acerca de</p>
+            </a>
+        </li>
+
+
+
+        
+
+        <li class="elementoNav idiomaNav">
+            <a href="#">
+                <i class="bi bi-globe icoNav"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+    <!-- Contenido -->
+    
+
+
+
+
+<!-- Main -->
+<main class="mainPost">
+    <div class="contenedorPost">
+        <!-- Portada -->
+        <div class="portadaPost">
+            <img src="/assets/img/articulos/" alt="">
+        </div>
+        <div class="contenidoPost">
+            <h1>CashAddr, el formato de direcciones de Bitcoin Cash</h1>
+            <p>Cuando se desea recibir o enviar un pago utilizando Bitcoin Cash, se utilizan direcciones. La forma en la que se representa esta información se denomina <strong>formato de direcciones</strong>.</p>
+
+<p><strong>CashAddr</strong> es el formato de direcciones propio de Bitcoin Cash. Fue introducido luego de la actualización de 2017 y se ha convertido en el formato mayoritario adoptado por billeteras, usuarios y plataformas.</p>
+
+<p>Antes de utilizarse el formato CashAddr, se utilizaba el formato <strong>Legacy</strong> —también conocido como <strong>Base58</strong>—, que ya cayó en desuso y solamente es soportado en forma de retrocompatibilidad.</p>
+
+<hr />
+
+<p><strong>Nota:</strong> Lo que hay que entender es que, al ser un formato diferente, no cambia la dirección, sino la forma de mostrarlo. Es decir que una misma dirección puede representarse como Legacy o CashAddr. Es similar a representar el mismo número en forma decimal («48») o en números romanos («XLVIII»). No cambia el número, solo su formato de representación.</p>
+
+<hr />
+
+<p>Cuando se utiliza CashAddr, por defecto en Bitcoin Cash, las direcciones lucen de esta manera: <code class="language-plaintext highlighter-rouge">bitcoincash:qrxxrefrrup9xwct4j8msyn3yy3m2ks6nut6u0jv5g</code></p>
+
+<p>Mientras que la <strong>misma</strong> dirección en formato Legacy se ve así: <code class="language-plaintext highlighter-rouge">1Kdg817SuWmjMVpytvuXewFq9VcQGE9b9j</code></p>
+
+<p>Ambas direcciones representan la misma clave pública. Simplemente se muestran de manera diferente.</p>
+
+<h2 id="ventajas-de-cashaddr">Ventajas de CashAddr</h2>
+
+<p>Las principales diferencias de las direcciones CashAddr con las Legacy son:</p>
+
+<ul>
+  <li>Por defecto se incluye el prefijo <code class="language-plaintext highlighter-rouge">bitcoincash:</code>, aunque es opcional.</li>
+  <li>Solo se utilizan letras minúsculas. Se pueden representar también con letras mayúsculas.</li>
+  <li>Se pueden representar más eficientemente en códigos QR usando el modo alfanumérico.</li>
+  <li>Son exclusivas de Bitcoin Cash, por lo que no hay riesgo de confusión con otras criptomonedas a la hora de hacer un pago.</li>
+</ul>
+
+<h2 id="convertir-de-cashaddr-a-legacy-y-viceversa">Convertir de CashAddr a Legacy y viceversa</h2>
+
+<p>La billetera <strong>Electron Cash</strong> permite convertir una dirección CashAddr a Legacy y viceversa, en caso de que algún servicio que se utilice por alguna razón no lo soporte.</p>
+
+<p>También las siguientes páginas web ofrecen una herramienta de conversión en línea:</p>
+
+<ul>
+  <li>https://cashaddr.bitcoincash.org/</li>
+  <li>https://cashaddr.org/</li>
+</ul>
+
+<p>Sin embargo, es recomendable no utilizar servicios o plataformas que no utilicen CashAddr, ya que, al ser una actualización tan básica y adoptada en la red de Bitcoin Cash, cualquier sistema que no las utilice da la impresión de estar extremadamente desactualizado.</p>
+
+        </div>
+    </div>
+</main>
+
+    <!-- Footer -->
+    <footer>
+    <div class="contFooter">
+        <div class="div1Footer">
+            <h4>Mapa del sitio</h4>
+            <ul>
+                
+                <li><a href="#">Inicio</a></li>
+                
+                <li><a href="#">Artículos</a></li>
+                
+                <li><a href="#">FAQs</a></li>
+                
+                <li><a href="#">Acerca de</a></li>
+                
+            </ul>
+        </div>
+        <div>
+            <h4>Contacto y redes</h4>
+            <ul>
+                
+                <li><a href="https://twitter.com/BitcoinCashAcademy">Twitter</a></li>
+                
+                <li><a href="https://t.me/BitcoinCashAcademy">Telegram</a></li>
+                
+                <li><a href="mailto:contact@bch.education">Email</a></li>
+                
+            </ul>
+        </div>
+        <div>
+            <h4>Idiomas</h4>
+            <ul>
+                
+                <li><a href="#">Español</a></li>
+                
+                <li><a href="#">Français</a></li>
+                
+                <li><a href="#">English</a></li>
+                
+                <li><a href="#">Deutsch</a></li>
+                
+                <li><a href="#">Italiano</a></li>
+                
+                <li><a href="#">Português</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <p class="derechoAutor">© Bitcoin Cash Academy</p>
+</footer>
+</body>
+
+</html>

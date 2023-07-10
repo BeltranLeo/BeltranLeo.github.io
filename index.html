@@ -1,44 +1,59 @@
----
-layout: default
-title: Bitcoin Cash Academy
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="container text-center">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Cash Academy</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/logos/favicon.svg" type="image/x-icon">
+</head>
 
-    <div class="row">
-
-        <div class="col-sm-0 col-md-2"></div>
-
-        <div class="col-sm-12 col-md-8">
-
-            <div class="container p-3 my-3 text-bg-dark rounded">
-                <h1 class="m-0">Bitcoin Cash Academy</h1>
-            </div>
-
-            <div class="container p-3 my-3 border rounded">
-                <img src="/assets/images/triangles-world.svg" class="img-fluid">
-            </div>
-
-            <div class="container px-4 my-3 text-center">
-                <div class="row g-3 row-cols-1 row-cols-sm-2">
-
-                  {% for language in site.data.languages %}
-
-                  <div class="col">
-                      <a href="{{ language.base_url }}">
-                          <div class="p-3 border bg-light">{{ language.name }}</div>
-                      </a>
-                  </div>
-
-                  {% endfor %}
-
-                </div>
-            </div>
-
+<body class="idiomasBody">
+    <header>
+        <div class="logoIndexTop">
+            <img src="/assets/img/logos/Logo_con_texto.svg" alt="Logo de bitcoin cash">
         </div>
+        <div class="h1Index">
+            <h1>Seleccione el idioma</h1>
+        </div>
+    </header>
+    <main class="idiomasMain">
+        <div class="mexIco">
+            <a href="es/"><img src="assets/img/iconos/mexico.svg" alt="Ícono bandera de México">
+                <p>Español</p>
+            </a>
+        </div>
+        <div class="fraIco">
+            <a href="#"><img src="assets/img/iconos/francia.svg" alt="Ícono bandera de Francia">
+                <p>Français</p>
+            </a>
+        </div>
+        <div class="usaIco">
+            <a href="#"><img src="assets/img/iconos/usa.svg" alt="Ícono bandera de Estados Unidos">
+                <p>English</p>
+            </a>
+        </div>
+        <div class="bcaIco">
+            <img src="assets/img/logos/Logo_individual.svg" alt="logo de la marca">
+        </div>
+        <div class="aleIco">
+            <a href="#"><img src="assets/img/iconos/alemania.svg" alt="Ícono bandera de Alemania">
+                <p>Deutsch</p>
+            </a>
+        </div>
+        <div class="itaIco">
+            <a href="#"><img src="assets/img/iconos/italia.svg" alt="Ícono bandera de Italia">
+                <p>Italiano</p>
+            </a>
+        </div>
+        <div class="porIco">
+            <a href="#"><img src="assets/img/iconos/portugal.png" alt="Ícono bandera de Portugal">
+                <p>Português</p>
+            </a>
+        </div>
+    </main>
+    <h2 class="h2Index">Bitcoin <span class="verde">Cash</span> Academy</h2>
+</body>
 
-        <div class="col-sm-0 col-md-2"></div>
-
-    </div>
-
-</div>
+</html>
