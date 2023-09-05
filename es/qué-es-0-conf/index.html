@@ -14,7 +14,7 @@
     <nav class="navegador">
     <ul>
         <li class="logoNav">
-            <a href="/">
+            <a href="/es/">
                 <img src="/assets/img/logos/Logo_individual.svg" alt="Logo de Bitcoin Cash Academy">
             </a>
         </li>
@@ -28,45 +28,37 @@
             </a>
         </li>
 
-
-
         
 
         <li class="elementoNav">
-            <a href="/artículos/">
+            <a href="/es/artículos/">
                 <i class="bi bi-file-earmark-text-fill icoNav"></i>
                 <p>Artículos</p>
             </a>
         </li>
 
-
-
         
 
         <li class="elementoNav">
-            <a href="/preguntas-frecuentes/">
+            <a href="/es/preguntas-frecuentes/">
                 <i class="bi-question-circle-fill icoNav"></i>
                 <p>FAQs</p>
             </a>
         </li>
 
-
-
         
 
         <li class="elementoNav">
-            <a href="/acerca-de/">
+            <a href="/es/acerca-de/">
                 <i class="bi-cup-hot-fill icoNav"></i>
                 <p>Acerca de</p>
             </a>
         </li>
 
-
-
         
 
         <li class="elementoNav idiomaNav">
-            <a href="#">
+            <a href="/">
                 <i class="bi bi-globe icoNav"></i>
             </a>
         </li>
@@ -84,9 +76,25 @@
     <div class="contenedorPost">
         <!-- Portada -->
         <div class="portadaPost">
-            <img src="/assets/img/articulos/instant-payment.jpg" alt="Pago instantáneo.">
+            <img src="/assets/img/articulos/0-conf-portada.svg" alt="Pago instantáneo.">
         </div>
         <div class="contenidoPost">
+            <div class="divCategorias">
+
+                
+                
+                <a href="/es/economía/" class="cat">
+                    <p>Economía</p>
+                </a>
+                
+                
+                <a href="/es/pagos/" class="cat">
+                    <p>Pagos</p>
+                </a>
+                
+            </div>
+            <hr class="separador">
+            <p class="fechaPost">2023-05-15</p>
             <h1>¿Qué es 0-conf?</h1>
             <p><strong>0-conf</strong> es una capa de utilidad existente en Bitcoin Cash que permite aceptar transacciones sin confirmaciones, lo que facilita los pagos y da una experiencia cómoda e instantánea.</p>
 
@@ -100,16 +108,16 @@
 
 <p>Aún así, cabe resaltar que un comerciante puede decidir no aceptar transacciones sin confirmaciones, dependiendo del tipo de producto o servicio que ofrezca. Es completamente voluntario.</p>
 
-<figure>
-    <div>
-        <image src="/assets/img/articulos/instant-payment.jpg" caption="Leyenda de la imagen" alt="Imagen de prueba" />
-        <figcaption>Texto de la imagen</figcaption>
-    </div>
-</figure>
-
 <h2 id="cómo-funciona-0-conf">Cómo funciona 0-conf</h2>
 
 <p>Los usuarios, al hacer una transacción utilizando una billetera, construyen una transacción y la firman con las claves privadas correspondientes a las monedas de Bitcoin Cash que están intentando gastar. Esta transacción es comunicada vía internet a los nodos y a los mineros que mantienen la seguridad de la red. Los mineros chequean que la transacción sea válida (cumpliendo con las reglas de consenso) y la agregan a la <strong><em>mempool</em></strong>, que es el espacio en memoria donde aguardan las transacciones para ser incluidas en un bloque futuro.</p>
+
+<figure>
+    <div>
+        <image src="/assets/img/articulos/instant-payment.jpg" caption="Leyenda de la imagen" alt="Imagen de prueba" />
+        <figcaption>0-conf permite pagos seguros e inmediatos.</figcaption>
+    </div>
+</figure>
 
 <p>Si un usuario malicioso, en un intento de estafar a un comerciante, envía una nueva transacción gastando las mismas monedas, esta será rechazada por la mayoría de los nodos, que están configurados para no aceptar transacciones que intenten gastar monedas no válidas o aquellas que ya estén incluidas dentro de la <strong><em>mempool</em></strong>.</p>
 
@@ -160,22 +168,16 @@
             <h4>Idiomas</h4>
             <ul>
                 
-                <li><a href="#">Español</a></li>
+                <li><a href="/es/">Español</a></li>
                 
-                <li><a href="#">Français</a></li>
+                <li><a href="/fr/">Français</a></li>
                 
-                <li><a href="#">English</a></li>
-                
-                <li><a href="#">Deutsch</a></li>
-                
-                <li><a href="#">Italiano</a></li>
-                
-                <li><a href="#">Português</a></li>
+                <li><a href="/en/">English</a></li>
                 
             </ul>
         </div>
     </div>
-    <p class="derechoAutor">© Bitcoin Cash Academy</p>
+    <p class="derechoAutor">© Bitcoin Cash Academy 2023</p>
 </footer>
 </body>
 
